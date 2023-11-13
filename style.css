@@ -104,3 +104,47 @@ input::placeholder{
    font-weight: 600;
 
 }
+/* **************************responsivecss*************** */
+@media(max-width:700px){
+    .row{
+        height: auto;
+         display: block;
+         text-align: center;
+         width: 100%;
+        margin: auto;
+        
+     }
+     .facebook-text {
+        width: 100%;
+        margin: auto;
+     }
+     .facebook-text h1{
+        padding-top: 2rem;
+        font-size: 2.5rem;
+        color: rgb(24, 119, 242);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .facebook-text p{
+        padding-bottom: 2rem;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+     .container{
+        height: 80vh;
+        width: 100%;
+        margin: auto;
+    }
+     .box form{
+       padding: 1rem;
+    }
+    .box{
+        border-radius: 10px;
+        height: 50vh;
+        width: 390px;
+        margin: 20px auto auto auto;
+        background-color:rgb(255, 255, 255);
+        box-shadow: 0px 0px 5px 3px #d9e3f1;
+        text-align: center;
+    }
+   
+}
