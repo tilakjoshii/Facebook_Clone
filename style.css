@@ -39,6 +39,9 @@
     text-align: center;
     
 }
+.box form{
+    padding-top: .6rem;
+ }
 input{
     display: block;
     width: 340px;
@@ -105,9 +108,9 @@ input::placeholder{
 
 }
 /* **************************responsivecss*************** */
-@media(max-width:700px){
+@media(max-width:800px){
     .row{
-        height: auto;
+        height: 90vh;
          display: block;
          text-align: center;
          width: 100%;
@@ -130,7 +133,7 @@ input::placeholder{
         margin-top: 10px;
     }
      .container{
-        height: 80vh;
+        height: 90vh;
         width: 100%;
         margin: auto;
     }
@@ -139,12 +142,16 @@ input::placeholder{
     }
     .box{
         border-radius: 10px;
-        height: 50vh;
+        height: 60vh;
         width: 390px;
         margin: 20px auto auto auto;
         background-color:rgb(255, 255, 255);
         box-shadow: 0px 0px 5px 3px #d9e3f1;
         text-align: center;
     }
+    .faltu p a{
+    padding-bottom: 6rem;
+     
+     }
    
 }
